@@ -1,0 +1,15 @@
+package aprendendojava.estruturasequencial;
+
+import java.util.Scanner;
+
+public class EntradaDeDados04 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a character: ");
+        char valueA = sc.next().charAt(0);
+        System.out.println("Char: " + valueA);
+
+        sc.close();
+    }
+}
