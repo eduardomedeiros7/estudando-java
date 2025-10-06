@@ -10,7 +10,10 @@ public class Product {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
-
+    }
+    public Product(String name, double price){
+        this.name = name;
+        this.price = price;
     }
 
     public  double totalValueInStock(){
