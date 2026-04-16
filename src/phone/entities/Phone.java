@@ -35,3 +35,4 @@ public class Phone {
                 "Protection: " + (ipRating != null ? ipRating : "No certified protection");
     }
 }
+
